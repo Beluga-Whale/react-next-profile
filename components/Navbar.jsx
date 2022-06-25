@@ -135,7 +135,7 @@ const Navbar = () => {
                         </div>
                         <div className="border-b border-gray-300 my-4">
                             <p className="w-[85%] md:w-[90%] py-4">
-                                Let&#39;s build something legendary together
+                                Let's build something legendary together
                             </p>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ const Navbar = () => {
                         </ul>
                         <div className="pt-40">
                             <p className="uppercase tracking-widest text-[#5651e5]">
-                                Let&#39;s Connect
+                                Let's Connect
                             </p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                                 <a href="https://www.instagram.com/halay.x/" target="_blank" >
