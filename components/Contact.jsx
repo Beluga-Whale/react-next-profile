@@ -42,7 +42,7 @@ const Contact = () => {
                                     <div className="flex items-center max-w-[500px] m-auto justify-between py-4">
                                         <a
                                             href="https://www.instagram.com/halay.x/"
-                                            target="_blank" rel="noopener"
+                                            target="_blank" rel='noreferrer'
                                         >
                                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-[#5651e5] hover:text-white duration-300">
                                                 <AiFillInstagram size="20" />
@@ -51,7 +51,7 @@ const Contact = () => {
 
                                         <a
                                             href="https://github.com/Beluga-Whale"
-                                            target="_blank" rel="noopener"
+                                            target="_blank" rel='noreferrer'
                                         >
                                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-[#5651e5] hover:text-white duration-300">
                                                 <AiFillGithub size="20" />
@@ -60,7 +60,7 @@ const Contact = () => {
 
                                         <a
                                             href="https://www.facebook.com/Thanathat159/"
-                                            target="_blank" rel="noopener"
+                                            target="_blank" rel='noreferrer'
                                         >
                                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-[#5651e5] hover:text-white duration-300">
                                                 <AiFillFacebook size="20" />

@@ -24,25 +24,25 @@ const Main = () => {
                         while learning back-end technologies
                     </p>
                     <div className="flex items-center justify-between max-w-[350px] m-auto py-4 ">
-                        <a href="https://www.instagram.com/halay.x/" target="_blank" rel="noopener" >
+                        <a href="https://www.instagram.com/halay.x/" target="_blank" rel='noreferrer' >
                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-[#5651e5] hover:text-white duration-300">
                                 <AiFillInstagram size="20" />
                             </div>
                         </a>
 
-                        <a href="https://github.com/Beluga-Whale" target="_blank" rel="noopener" >
+                        <a href="https://github.com/Beluga-Whale" target="_blank" rel='noreferrer' >
                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-[#5651e5] hover:text-white duration-300">
                                 <AiFillGithub size="20" />
                             </div>
                         </a>
 
-                        <a href="https://www.facebook.com/Thanathat159/" target="_blank" rel="noopener" >
+                        <a href="https://www.facebook.com/Thanathat159/" target="_blank" rel='noreferrer' >
                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-[#5651e5] hover:text-white duration-300">
                                 <AiFillFacebook size="20" />
                             </div>
                         </a>
 
-                        <a href='mailto:thanathat.js@gmail.com' target="_blank" rel="noopener" >
+                        <a href='mailto:thanathat.js@gmail.com' target="_blank" rel='noreferrer' >
                             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in hover:bg-[#5651e5] hover:text-white duration-300">
                                 <AiOutlineMail size="20" />
                             </div>
