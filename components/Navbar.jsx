@@ -76,7 +76,7 @@ const Navbar = () => {
                             <Link href="/#contact">Contact</Link>
                         </li>
                     </ul>
-                    {/* Hamburger Icon */}
+                   
                     <div
                         style={{ color: `${linkColor}` }}
                         onClick={handleNav}
@@ -86,8 +86,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            {/* Mobile Menu */}
-            {/* Overlay */}
+            
             <div
                 className={
                     nav

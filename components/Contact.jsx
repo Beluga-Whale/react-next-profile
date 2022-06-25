@@ -16,7 +16,7 @@ const Contact = () => {
                 <h2 className="py-4">Get In Touch</h2>
                 <div className='flex justify-center' >
                     <div className="grid lg:m-16  lg:w-[46rem]">
-                        {/* left */}
+                        
                         <div className=" w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
                             <div className="lg:p-8 h-full">
                                 <div>
