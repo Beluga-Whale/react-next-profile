@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
 import { AiOutlineMail } from 'react-icons/ai';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-// 1:31:41 Minute
+
 const Contact = () => {
     return (
         <div id="contact" className="w-full lg:h-screen ">
@@ -75,15 +75,15 @@ const Contact = () => {
                 </div>
                 <div className="flex justify-center py-12 ">
                     <Link href="/">
-                        <di
+                        <div
                             className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in "
-                            v
+                            
                         >
                             <HiOutlineChevronDoubleUp
                                 className="text-[#5651e5]"
                                 size={30}
                             />
-                        </di>
+                        </div>
                     </Link>
                 </div>
             </div>
