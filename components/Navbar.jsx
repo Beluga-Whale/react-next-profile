@@ -176,17 +176,17 @@ const Navbar = () => {
                                 Let&#39;s Connect
                             </p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                                <a href="https://www.instagram.com/halay.x/" target="_blank" >
+                                <a href="https://www.instagram.com/halay.x/" target="_blank" rel="noopener" >
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiFillInstagram />
                                     </div>
                                 </a>
-                                <a href="/" target="_blank">
+                                <a href="/" target="_blank" rel="noopener">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiFillGithub />
                                     </div>
                                 </a>
-                                <a href="/" target="_blank">
+                                <a href="/" target="_blank" rel="noopener">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiFillFacebook />
                                     </div>
