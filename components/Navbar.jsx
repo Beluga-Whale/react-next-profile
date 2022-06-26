@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai';
 import { AiFillGithub, AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
 import { useRouter } from 'next/router';
+import NavLogo from '../public/assets/navLogo.png';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -11,8 +12,6 @@ const Navbar = () => {
     const [navBg, setNavBg] = useState('#ecf0f3');
     const [linkColor, setLinkColor] = useState('#1f2937');
     const router = useRouter();
-
- 
 
     const handleNav = () => {
         setNav(!nav);
@@ -43,10 +42,10 @@ const Navbar = () => {
                     <a>
                         <Image
                             className="cursor-pointer"
-                            src="/../public/assets/navLogo.png"
+                            src={NavLogo}
                             alt="/"
                             width="125"
-                            height="58"
+                            height="50"
                         />
                     </a>
                 </Link>
@@ -76,7 +75,7 @@ const Navbar = () => {
                             <Link href="/#contact">Contact</Link>
                         </li>
                     </ul>
-                   
+
                     <div
                         style={{ color: `${linkColor}` }}
                         onClick={handleNav}
@@ -86,7 +85,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            
+
             <div
                 className={
                     nav
@@ -107,7 +106,7 @@ const Navbar = () => {
                                 <a>
                                     <Image
                                         className="cursor-pointer"
-                                        src="/../public/assets/navLogo.png"
+                                        src={NavLogo}
                                         alt="/"
                                         width="87"
                                         height="35"
@@ -175,22 +174,26 @@ const Navbar = () => {
                                 Let&#39;s Connect
                             </p>
                             <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                                <a href="https://www.instagram.com/halay.x/" target="_blank" rel='noreferrer' >
+                                <a
+                                    href="https://www.instagram.com/halay.x/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiFillInstagram />
                                     </div>
                                 </a>
-                                <a href="/" target="_blank" rel='noreferrer'>
+                                <a href="/" target="_blank" rel="noreferrer">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiFillGithub />
                                     </div>
                                 </a>
-                                <a href="/" target="_blank" rel='noreferrer'>
+                                <a href="/" target="_blank" rel="noreferrer">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiFillFacebook />
                                     </div>
                                 </a>
-                                <a href='mailto:thanathat.js@gmail.com'>
+                                <a href="mailto:thanathat.js@gmail.com">
                                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                                         <AiOutlineMail />
                                     </div>

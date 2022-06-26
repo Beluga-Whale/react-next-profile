@@ -1,5 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
+import Html from '../public/assets/skills/html.png';
+import Css from '../public/assets/skills/css.png';
+import Javascript from '../public/assets/skills/javascript.png';
+import Tailwind from '../public/assets/skills/tailwind.png';
+import Github from '../public/assets/skills/github1.png';
+import NextJS from '../public/assets/skills/nextjs.png'
+import ReactImg from '../public/assets/skills/react.png';
 
 const Skills = () => {
     return (
@@ -15,7 +22,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src="/../public/assets/skills/html.png"
+                                    src={Html}
                                     alt="/"
                                     width="64px"
                                     height="64px"
@@ -31,7 +38,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src="/../public/assets/skills/css.png"
+                                    src={Css}
                                     alt="/"
                                     width="64px"
                                     height="64px"
@@ -47,7 +54,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src="/../public/assets/skills/Javascript.png"
+                                    src={Javascript}
                                     alt="/"
                                     width="64px"
                                     height="64px"
@@ -63,7 +70,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src="/../public/assets/skills/react.png"
+                                    src={ReactImg}
                                     alt="/"
                                     width="64px"
                                     height="64px"
@@ -79,7 +86,7 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src="/../public/assets/skills/tailwind.png"
+                                    src={Tailwind}
                                     alt="/"
                                     width="64px"
                                     height="64px"
@@ -95,14 +102,14 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src="/../public/assets/skills/nextjs.png"
+                                    src={NextJS}
                                     alt="/"
                                     width="64px"
                                     height="64px"
                                 />
                             </div>
                             <div className='flex flex-col items-center justify-center '>
-                                <h3>Tailwind</h3>
+                                <h3>Next</h3>
                             </div>
                         </div>
                     </div>
@@ -111,14 +118,14 @@ const Skills = () => {
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image
-                                    src="/../public/assets/skills/github1.png"
+                                    src={Github}
                                     alt="/"
                                     width="64px"
                                     height="64px"
                                 />
                             </div>
                             <div className='flex flex-col items-center justify-center '>
-                                <h3>Tailwind</h3>
+                                <h3>Github</h3>
                             </div>
                         </div>
                     </div>
